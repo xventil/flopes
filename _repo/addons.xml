@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.porn720" name="Porn720" provider-name="Rodrigo Lopes" version="0.4.0">
+ <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.t0mm0.common" />
+ </requires>
+ <extension library="addon.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <language>en</language>
+  <platform>all</platform>
+  <summary lang="en">Porn720</summary>
+  <description lang="en">Porn720 UnOfficial</description>
+  <platform>all</platform>
+ </extension>
+</addon>
+
+<addon id="plugin.video.porn720com" name="Porn720.com" provider-name="Rodrigo Lopes" version="0.4.0">
+ <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.t0mm0.common" />
+ </requires>
+ <extension library="addon.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <language>en</language>
+  <platform>all</platform>
+  <summary lang="en">Porn720.com</summary>
+  <description lang="en">Porn720.com UnOfficial</description>
+  <platform>all</platform>
+ </extension>
+</addon>
+
+    <addon id="repository.name" name="Your Addons Name" version="0.1.0" provider-name="Your Name">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Your Addons Name">
+            <info compressed="false">https://raw.githubusercontent.com/xventil/flopes/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xventil/flopes/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/xventil/flopes/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>A short summary of this addon</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>
