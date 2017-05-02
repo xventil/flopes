@@ -43,9 +43,9 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="Your Addons Name">
-            <info compressed="false">https://raw.githubusercontent.com/xventil/flopes/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/xventil/flopes/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/xventil/flopes/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/xventil/master/flopes/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/xventil/master/flopes/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/xventil/master/flopes/_repo/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
