@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+    <addon id="plugin.video.openloadPorn" name="openloadPorn" provider-name="Rodrigo Lopes" version="0.4.0">
+ <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.t0mm0.common" />
+ </requires>
+ <extension library="addon.py" point="xbmc.python.pluginsource">
+  <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <language>en</language>
+  <platform>all</platform>
+  <summary lang="en">openloadPorn</summary>
+  <description lang="en">openloadPorn UnOfficial</description>
+  <platform>all</platform>
+ </extension>
+</addon>
     <addon id="plugin.video.jizzman2" name="jizzman2" provider-name="Rodrigo Lopes" version="0.4.0">
  <requires>
     <import addon="xbmc.python" version="2.1.0"/>
