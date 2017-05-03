@@ -7,7 +7,7 @@ it´s a unofficial version and not supported or endorsed by the website.
 
 for now the addon supports;
 
- search movies and scenes
+
  browse with categories
  
  hope you enjoy it!
