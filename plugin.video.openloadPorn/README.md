@@ -8,5 +8,6 @@ it´s a unofficial version and not supported or endorsed by the website.
 for now the addon supports;
 
  browse with categories
+ search
  
  hope you enjoy it!
