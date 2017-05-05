@@ -1,0 +1,19 @@
+<addon id="plugin.video.sexgalaxy" name="sexgalaxy" provider-name="Rodrigo Lopes" version="0.4.0">   
+ <requires>   
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.module.t0mm0.common" />
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/> 
+ </requires>   
+ <extension library="addon.py" point="xbmc.python.pluginsource">   
+  <provides>video</provides>   
+ </extension>   
+ <extension point="xbmc.addon.metadata">   
+  <language>en</language>   
+  <platform>all</platform>   
+  <summary lang="en">sexgalaxy</summary>   
+  <description lang="en">sexgalaxy UnOfficial</description>   
+  <platform>all</platform>   
+ </extension>   
+</addon>  
