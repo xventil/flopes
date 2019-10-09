@@ -50,11 +50,9 @@ def listar_categorias():
 
 
 def abrir_video(video):
-     print "funcao abrir_video"
      try:
          xbmcPlayer = xbmc.Player(xbmc.PLAYER_CORE_AUTO)
          xbmcPlayer.play(video)
-		 
      except:
          pass
          self.message("Erro ao abrir o video.")
@@ -63,7 +61,6 @@ def listar_filmes(url):
         codigo_fonte = abrir_url(url)
         match=re.compile('<div class="entry-featuredImg"><a href="(.+?)"><span class="overlay-img"><.span><img width=".+" height=".+" src="(.+?)".+\s.+\s+.h3 class="entry-title"><a href=".+?" rel="bookmark">(.+?)<').findall(codigo_fonte)
         for url, img, titulo in match:
-            print url
             addDir(titulo, url, 3, img)
             xbmc.executebuiltin('Container.SetViewMode(%d)' % 500)
         #match=re.compile("<a href='(.+?)' title='.+?'>&raquo").findall(codigo_fonte)
@@ -188,10 +185,10 @@ except:
         pass
 
 
-print "Mode: "+str(mode)
-print "URL: "+str(url)
-print "Name: "+str(name)
-print "Iconimage: "+str(iconimage)
+print ("Mode: "+str(mode))
+print ("URL: "+str(url))
+print ("Name: "+str(name))
+print ("Iconimage: "+str(iconimage))
 
 
 
@@ -202,20 +199,16 @@ print "Iconimage: "+str(iconimage)
 
 
 if mode==None or url==None or len(url)<1:
-#	print ""
     listar_categorias()
     #CATEGORIES()
 
 elif mode==1:
-    print ""
     listar_filmes(url)
 
 elif mode==2:
-    print ""
     encontrar_fontes(url)
 
 elif mode==3:
-    print ""
     escolhas(url)
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]))
